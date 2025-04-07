@@ -1,0 +1,3 @@
+npx sequelize model:create --name User --attributes email:string,name:string,password:string
+
+npx sequelize model:create --name Game --attributes name:string,gameImg:string,releaseDate:date,developer:string,genre:string
